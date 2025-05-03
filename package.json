@@ -1,0 +1,22 @@
+{
+  "name": "db-server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "@types/mysql": "^2.15.26",
+    "dotenv": "^16.4.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.13.0",
+    "zod": "^3.24.2"
+  }
+}
